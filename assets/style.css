@@ -239,6 +239,18 @@ form textarea {
 input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 1px 1px black;
+}
+
+#nom,
+#email,
+#message {
+  background-color: white;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 1px 1px black;
 }
 
 @media all and (max-width: 1180px) {
