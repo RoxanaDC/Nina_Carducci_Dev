@@ -54,7 +54,7 @@ body {
   content: " ";
   background-color: #e5975f;
   width: 374px;
-  height: 329px;
+  height: auto;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -203,7 +203,7 @@ body {
   content: " ";
   background-color: #beb45a;
   width: 374px;
-  height: 329px;
+  height: auto;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -251,6 +251,10 @@ input[type="submit"] {
   border-radius: 6px;
   border: none;
   box-shadow: 1px 1px 1px black;
+}
+#insta {
+  width: 18px;
+  height: 18px;
 }
 
 @media all and (max-width: 1180px) {
