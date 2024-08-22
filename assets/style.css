@@ -238,6 +238,7 @@ form textarea {
   margin-bottom: 20px;
 }
 input[type="submit"] {
+  color: black;
   background-color: #beb45a;
   padding: 0.5em 1em;
   border-radius: 6px;
