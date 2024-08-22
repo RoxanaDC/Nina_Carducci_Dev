@@ -23,6 +23,32 @@
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js" defer></script>
     <title>Nina Carducci - photographe</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "image": "./assets/images/nina_carducci.webp",
+        "telephone": "0033 5 56 67 78 89",
+
+        "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68, Avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressCountry": "France",
+          "postalCode": "33200"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["lundi", "mardi", "mercredi", "jeudi", "vendredi"],
+          "opens": "10h00",
+          "closes": "19h00"
+        },
+        "priceRange": "50 € - 400 €"
+      }
+    </script>
   </head>
 
   <body>
@@ -124,7 +150,10 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.webp" alt="Photo de Nina" />
+        <img
+          src="./assets/images/nina_carducci.webp"
+          alt="Photo de Nina Caducci"
+        />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>

@@ -103,7 +103,7 @@ body {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #beb45a;
-  border-radius: 0;
+  border-radius: 6px;
 }
 .nav-pills .nav-link {
   color: #000;
@@ -247,10 +247,16 @@ input[type="submit"] {
 
 #nom,
 #email,
-#message {
+#message,
+.service {
   background-color: white;
   border-radius: 6px;
   border: none;
+  box-shadow: 1px 1px 1px black;
+}
+
+.nav-link {
+  border-radius: 6px;
   box-shadow: 1px 1px 1px black;
 }
 #insta {
