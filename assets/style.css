@@ -134,6 +134,7 @@ body {
   align-items: center;
   display: flex;
   font-size: 24px;
+  z-index: 1000;
 }
 
 .quote {

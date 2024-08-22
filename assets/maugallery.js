@@ -204,6 +204,8 @@
                     </div>
                 </div>
             </div>`);
+      console.log("mg-prev exists:", $(".mg-prev").length);
+      console.log("mg-next exists:", $(".mg-next").length);
     },
     showItemTags(gallery, position, tags) {
       var tagItems =
@@ -242,3 +244,31 @@
     },
   };
 })(jQuery);
+
+function clickOnPrevButton() {
+  let prevButton = document.getElementById(".mg-prev");
+  if (prevButton) {
+    prevButton.addEventListener("click", function (eveniment) {
+      eveniment.preventDefault();
+      console.log("tu as appuyé sur le prevButton");
+      /*      document.getElementById("modal").style.display = "flex";
+      document.getElementById("modal-works").style.display = "block"; */
+    });
+  } else {
+    console.error("l`element prevButton est introuvable");
+  }
+}
+
+function clickOnNextButton() {
+  let nextButton = document.getElementById(".mg-next");
+  if (nextButton) {
+    nextButton.addEventListener("click", function (eveniment) {
+      eveniment.preventDefault();
+      console.log("tu as appuyé sur le nextButton");
+      /*      document.getElementById("modal").style.display = "flex";
+       document.getElementById("modal-works").style.display = "block"; */
+    });
+  } else {
+    console.error("l`element nextButton est introuvable");
+  }
+}
