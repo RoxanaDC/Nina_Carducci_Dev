@@ -91,7 +91,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* hr {
+hr {
   margin: 1rem 0;
   color: inherit;
   background-color: currentColor;
@@ -102,7 +102,7 @@ body {
 hr:not([size]) {
   height: 1px;
 }
- */
+
 h6,
 .h6,
 h5,
@@ -180,7 +180,7 @@ p {
   margin-bottom: 1rem;
 }
 
-/* abbr[title],
+abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -194,7 +194,7 @@ address {
   font-style: normal;
   line-height: inherit;
 }
- */
+
 ol,
 ul {
   padding-left: 2rem;
@@ -207,7 +207,7 @@ dl {
   margin-bottom: 1rem;
 }
 
-/* ol ol,
+ol ol,
 ul ul,
 ol ul,
 ul ol {
@@ -222,7 +222,7 @@ dd {
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
- */
+
 blockquote {
   margin: 0 0 1rem;
 }
@@ -232,7 +232,7 @@ strong {
   font-weight: bolder;
 }
 
-/* small,
+small,
 .small {
   font-size: 0.875em;
 }
@@ -258,12 +258,12 @@ sub {
 sup {
   top: -0.5em;
 }
- */
+
 a {
   color: #0d6efd;
   text-decoration: underline;
 }
-/* a:hover {
+a:hover {
   color: #0a58ca;
 }
 
@@ -279,8 +279,8 @@ kbd,
 samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
-  direction: ltr /* rtl:ignore */
-/*   unicode-bidi: bidi-override;
+  direction: ltr /* rtl:ignore */;
+  unicode-bidi: bidi-override;
 }
 
 pre {
@@ -303,10 +303,9 @@ code {
 }
 a > code {
   color: inherit;
-} */
-/* */
-*/
-/* kbd {
+}
+
+kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
@@ -318,7 +317,7 @@ kbd kbd {
   font-size: 1em;
   font-weight: 700;
 }
- */
+
 figure {
   margin: 0 0 1rem;
 }
@@ -328,7 +327,7 @@ svg {
   vertical-align: middle;
 }
 
-/* table {
+table {
   caption-side: bottom;
   border-collapse: collapse;
 }
@@ -353,8 +352,9 @@ td,
 th {
   border-color: inherit;
   border-style: solid;
-  border-width: 0;}
- */
+  border-width: 0;
+}
+
 label {
   display: inline-block;
 }
@@ -363,10 +363,10 @@ button {
   border-radius: 0;
 }
 
-/* button:focus:not(:focus-visible) {
+button:focus:not(:focus-visible) {
   outline: 0;
 }
- */
+
 input,
 button,
 select,
@@ -6422,7 +6422,7 @@ fieldset:disabled .btn {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  color: orangered;
+
   width: 9rem;
   height: 9rem;
   background-repeat: no-repeat;

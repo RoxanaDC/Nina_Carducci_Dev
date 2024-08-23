@@ -127,8 +127,8 @@ body {
 }
 .mg-prev,
 .mg-next {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 00%;
   justify-content: center;
   align-items: center;
@@ -179,7 +179,7 @@ body {
 
 .service {
   background-color: white;
-  max-width: 390px;
+  max-width: 590px;
   width: 30%;
   height: 337px;
   padding: 1em;
