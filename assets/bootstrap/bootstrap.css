@@ -5806,6 +5806,11 @@ fieldset:disabled .btn {
 }
 .modal-dialog-scrollable .modal-body {
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
 }
 
 .modal-dialog-centered {
@@ -5867,6 +5872,11 @@ fieldset:disabled .btn {
   position: relative;
   flex: 1 1 auto;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
 }
 
 .modal-footer {
@@ -5929,6 +5939,11 @@ fieldset:disabled .btn {
 }
 .modal-fullscreen .modal-body {
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
 }
 .modal-fullscreen .modal-footer {
   border-radius: 0;
@@ -5951,6 +5966,11 @@ fieldset:disabled .btn {
   }
   .modal-fullscreen-sm-down .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
   .modal-fullscreen-sm-down .modal-footer {
     border-radius: 0;
@@ -5973,6 +5993,11 @@ fieldset:disabled .btn {
   }
   .modal-fullscreen-md-down .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
   .modal-fullscreen-md-down .modal-footer {
     border-radius: 0;
@@ -5995,6 +6020,11 @@ fieldset:disabled .btn {
   }
   .modal-fullscreen-lg-down .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
   .modal-fullscreen-lg-down .modal-footer {
     border-radius: 0;
@@ -6017,6 +6047,11 @@ fieldset:disabled .btn {
   }
   .modal-fullscreen-xl-down .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
   .modal-fullscreen-xl-down .modal-footer {
     border-radius: 0;
@@ -6039,6 +6074,11 @@ fieldset:disabled .btn {
   }
   .modal-fullscreen-xxl-down .modal-body {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
   }
   .modal-fullscreen-xxl-down .modal-footer {
     border-radius: 0;
@@ -6388,7 +6428,6 @@ fieldset:disabled .btn {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: red;
   text-align: center;
   background: none;
   border: 0;
@@ -6405,7 +6444,6 @@ fieldset:disabled .btn {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: red;
   text-decoration: none;
   outline: 1;
   opacity: 0.9;
@@ -6443,7 +6481,7 @@ fieldset:disabled .btn {
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230000ff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='orange'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
 .carousel-indicators {

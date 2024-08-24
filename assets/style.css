@@ -397,8 +397,3 @@ input[type="submit"] {
     width: 80%;
   }
 }
-
-.carousel-control-prev,
-.carousel-control-next {
-  color: red;
-}

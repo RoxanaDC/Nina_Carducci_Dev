@@ -716,7 +716,6 @@ textarea {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: red;
   text-align: center;
   background: none;
   border: 0;
@@ -733,7 +732,6 @@ textarea {
 .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: red;
   text-decoration: none;
   outline: 1;
   opacity: 0.9;
