@@ -360,6 +360,7 @@ input[type="submit"] {
   .picture.left::before,
   .picture.right::before {
     height: 150px;
+    width: auto;
   }
   #services .container {
     align-items: center;
